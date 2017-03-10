@@ -386,7 +386,7 @@ body {
 .rproj-top {
   text-align: center;
   position: relative;
-  padding: 45px 0;
+  padding: 45px 204px;
   border-bottom: 1px solid #e1e2e3;
 }
 
@@ -482,4 +482,250 @@ body {
 .rproj-slider__name:active, .rproj-slider__name:focus {
   color: #393d42;
   text-decoration: underline;
+}
+
+.bestseller {
+  padding-top: 60px;
+}
+
+.hit-prod {
+  border: 2px solid #d7d6d6;
+  padding-bottom: 18px;
+  margin-top: 58px;
+  margin-bottom: 74px;
+  height: 437px;
+}
+
+.hit-prod__title {
+  color: #393d43;
+  font-size: 26px;
+  line-height: 33px;
+  font-family: "PTSansBold", sans-serif;
+  display: inline-block;
+}
+
+.hit-prod__title-wp {
+  padding: 20px;
+  text-align: center;
+}
+
+.hit-prod__img {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+
+.hit-prod__img-wp {
+  width: 80%;
+  margin: 0 auto;
+  height: 228px;
+  text-align: center;
+  position: relative;
+}
+
+.hit-prod__color {
+  font-size: 0;
+  text-align: center;
+}
+
+.hit-prod__color-item {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.hit-prod__color-link {
+  display: block;
+  width: 21px;
+  height: 21px;
+}
+
+.hit-prod__color-name {
+  display: block;
+  text-align: center;
+  padding: 14px 0;
+}
+
+.hit-prod__color-name span {
+  display: inline-block;
+  color: #6b727d;
+}
+
+.hit-prod__bottom {
+  padding: 0 18px;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.hit-prod__bottom-left {
+  display: inline-block;
+  font-size: 22px;
+  color: #393d43;
+  line-height: 33px;
+}
+
+.hit-prod__bottom-left b {
+  font-family: "PTSansBold", sans-serif;
+  font-size: 32px;
+  color: #393d43;
+  line-height: 33px;
+}
+
+.hit-prod__bottom-left sup {
+  font-size: 16px;
+}
+
+.hit-prod__bottom-right {
+  display: inline-block;
+}
+
+.hit-prod__bottom-right-bt {
+  padding-left: 65px;
+  line-height: 45px;
+  padding-right: 20px;
+  display: block;
+  color: #fff;
+  position: relative;
+  background-color: #01ca02;
+  font-size: 18px;
+}
+
+.hit-prod__bottom-right-bt::before {
+  content: '';
+  width: 28px;
+  height: 26px;
+  background-image: url(../img/icon/1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 50%;
+  margin-top: -13px;
+  left: 17px;
+}
+
+.hit-prod__bottom-right-bt:hover, .hit-prod__bottom-right-bt:focus, .hit-prod__bottom-right-bt:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+.partners {
+  padding-top: 30px;
+}
+
+.partners .ad-top {
+  padding-bottom: 30px;
+}
+
+.partners__img {
+  max-width: 100%;
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+
+.partners__img-wp {
+  width: 100%;
+  text-align: center;
+  margin-top: 65px;
+  margin-bottom: 48px;
+  height: 60px;
+}
+
+.footer {
+  background-color: #6b727d;
+  padding-top: 40px;
+  padding-bottom: 32px;
+}
+
+.copy p {
+  color: #fff;
+  font-size: 16px;
+  line-height: auto;
+}
+
+.rips__wp {
+  padding-left: 56px;
+  position: relative;
+}
+
+.rips__wp::before {
+  content: '';
+  width: 39px;
+  height: 46px;
+  display: block;
+  background-image: url(../img/icon/4.png);
+  left: 0;
+  top: 50%;
+  margin-top: -23px;
+  position: absolute;
+}
+
+.rips__wp a {
+  text-decoration: underline;
+  color: #fff;
+  font-size: 16px;
+  line-height: auto;
+}
+
+.rips__wp a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.rips__wp a:active, .rips__wp a:focus {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.button-up {
+  display: block;
+  width: 46px;
+  height: 46px;
+  background-color: #01ca02;
+  border: none;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.button-up::after {
+  content: '';
+  width: 25px;
+  height: 15px;
+  display: block;
+  background-image: url(../img/icon/5.png);
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 50%;
+  margin-top: -7.5px;
+}
+
+.button-up__wp {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: none;
 }

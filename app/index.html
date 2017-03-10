@@ -31,7 +31,7 @@
 		<div class="header__top">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-md-3 col-sm-12">
 						<div class="header__h-logo">
 							<div class="h-logo">
 								<a href="/" class="h-logo__link">
@@ -40,7 +40,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 hide">
 						<div class="header__h-info">
 							<div class="h-info">
 								<p>
@@ -49,7 +49,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-sm-6">
 						<div class="header__h-phone">
 							<div class="h-phone">
 								<div class="h-phone__number">
@@ -66,7 +66,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-sm-6">
 						<div class="header__h-basket">
 							<div class="h-basket">
 								<i class="h-basket__icon"></i>
@@ -81,6 +81,11 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
+						<div class="h-nav__mob-button-wp">
+							<a href="#" class="h-nav__mob-button">
+								Меню
+							</a>
+						</div>
 						<div class="header__h-nav">
 							<ul class="h-nav">
 								<li class="h-nav__item">
@@ -183,7 +188,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-4">
 					<div class="advantages__ad-center">
 						<div class="ad-center">
 							<ul class="ad-center__list">
@@ -200,7 +205,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-4">
 					<div class="advantages__ad-center">
 						<div class="ad-center">
 							<div class="ad-center__img-wp">
@@ -209,7 +214,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-4">
 					<div class="advantages__ad-center">
 						<div class="ad-center">
 							<ul class="ad-center__list">
@@ -249,7 +254,21 @@
 						<script>
 							$(document).ready(function() {
 								$('.rproj-slider').slick({
-									slidesToShow: 3
+									slidesToShow: 3,
+									responsive: [
+										{
+											breakpoint: 767,
+											settings: {
+												slidesToShow: 2
+											}
+										},
+										{
+											breakpoint: 480,
+											settings: {
+												slidesToShow: 1
+											}
+										}
+									]
 								});
 							});
 						</script>
@@ -291,6 +310,243 @@
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="bestseller">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="advantages__ad-top">
+						<div class="ad-top">
+							<h2 class="ad-top__title">
+								ПОПУЛЯРНАЯ ТРОТУАРНАЯ ПЛИТКА - ХИТЫ ПРОДАЖ
+							</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="bestseller__hit-prod">
+						<div class="hit-prod">
+							<div class="hit-prod__title-wp">
+								<h2 class="hit-prod__title">
+									Старый город
+								</h2>
+							</div>
+							<div class="hit-prod__img-wp">
+								<img src="img/prod/4.jpg" alt="" class="hit-prod__img">
+							</div>
+							<div class="hit-prod__row">
+								<ul class="hit-prod__color">
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #84888d;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #5e8226;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #ac1d1d;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #b7aa13;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #5e8226;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #ac1d1d;"></a>
+									</li>
+								</ul>
+								<div class="hit-prod__color-name">
+									<span>коричневый</span>
+								</div>
+							</div>
+							<div class="hit-prod__bottom">
+								<div class="hit-prod__bottom-left">
+									<b>910</b> руб/м<sup>2</sup>
+								</div>
+								<div class="hit-prod__bottom-right">
+									<a href="#" class="hit-prod__bottom-right-bt">
+										Заказать
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="bestseller__hit-prod">
+						<div class="hit-prod">
+							<div class="hit-prod__title-wp">
+								<h2 class="hit-prod__title">
+									Старый город
+								</h2>
+							</div>
+							<div class="hit-prod__img-wp">
+								<img src="img/prod/4.jpg" alt="" class="hit-prod__img">
+							</div>
+							<div class="hit-prod__row">
+								<ul class="hit-prod__color">
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #84888d;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #5e8226;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #ac1d1d;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #b7aa13;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #5e8226;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #ac1d1d;"></a>
+									</li>
+								</ul>
+								<div class="hit-prod__color-name">
+									<span>коричневый</span>
+								</div>
+							</div>
+							<div class="hit-prod__bottom">
+								<div class="hit-prod__bottom-left">
+									<b>910</b> руб/м<sup>2</sup>
+								</div>
+								<div class="hit-prod__bottom-right">
+									<a href="#" class="hit-prod__bottom-right-bt">
+										Заказать
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="bestseller__hit-prod">
+						<div class="hit-prod">
+							<div class="hit-prod__title-wp">
+								<h2 class="hit-prod__title">
+									Старый город
+								</h2>
+							</div>
+							<div class="hit-prod__img-wp">
+								<img src="img/prod/4.jpg" alt="" class="hit-prod__img">
+							</div>
+							<div class="hit-prod__row">
+								<ul class="hit-prod__color">
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #84888d;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #5e8226;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #ac1d1d;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #b7aa13;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #5e8226;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #ac1d1d;"></a>
+									</li>
+								</ul>
+								<div class="hit-prod__color-name">
+									<span>коричневый</span>
+								</div>
+							</div>
+							<div class="hit-prod__bottom">
+								<div class="hit-prod__bottom-left">
+									<b>910</b> руб/м<sup>2</sup>
+								</div>
+								<div class="hit-prod__bottom-right">
+									<a href="#" class="hit-prod__bottom-right-bt">
+										Заказать
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="partners">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="advantages__ad-top">
+						<div class="ad-top">
+							<h2 class="ad-top__title">
+								НАШИ ПАРТНЁРЫ
+							</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-sm-6">
+					<div class="partners__img-wp">
+						<img src="img/partners/1.jpg" alt="" class="partners__img">
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="partners__img-wp">
+						<img src="img/partners/2.png" alt="" class="partners__img">
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="partners__img-wp">
+						<img src="img/partners/3.jpg" alt="" class="partners__img">
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="partners__img-wp">
+						<img src="img/partners/4.jpg" alt="" class="partners__img">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="footer__copy">
+						<div class="copy">
+							<p>
+								2013 - 2017 “Деко Стоун” - продажа и укладка брусчатки.<br>Все права защищены.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1 col-sm-6">
+					<div class="footer__other">
+						<div class="other">
+							<img src="img/other.jpg" alt="" class="other-img">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-md-offset-3 col-sm-6">
+					<div class="footer__rips">
+						<div class="rips">
+							<div class="rips__wp">
+								<a href="#">
+									Разработка и<br>продвижение сайта
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="button-up__wp">
+		<button class="button-up"></button>
 	</div>
 </body>
 </html>
