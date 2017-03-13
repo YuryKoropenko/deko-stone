@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+
+	<title>Заголовок</title>
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Styles -->
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="libs/slick/slick.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+	<!-- End_Styles -->
+	<!-- Scripts -->
+	<script type="text/javascript" src="libs/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="libs/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<!-- End_Scripts -->
+</head>
+<body>
+	<header class="header">
+		<div class="header__top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-12">
+						<div class="header__h-logo">
+							<div class="h-logo">
+								<a href="/" class="h-logo__link">
+									<img src="img/h-logo.png" alt="" class="logo__img">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 hide">
+						<div class="header__h-info">
+							<div class="h-info">
+								<p>
+									Продажа и укладка брусчатки, тротуарной плитки
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="header__h-phone">
+							<div class="h-phone">
+								<div class="h-phone__number">
+									<a href="tel:+74956649440">
+										+7 /495/
+										<span>664-94-40</span>
+									</a>
+								</div>
+								<div class="h-phone__callback">
+									<a href="#">
+										Заказать обратный звонок
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="header__h-basket">
+							<div class="h-basket">
+								<i class="h-basket__icon"></i>
+								<a href="#">Корзина пуста</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header__bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="h-nav__mob-button-wp">
+							<a href="#" class="h-nav__mob-button">
+								Меню
+							</a>
+						</div>
+						<div class="header__h-nav">
+							<ul class="h-nav">
+								<li class="h-nav__item">
+									<a href="#" class="h-nav__link">
+										О компании
+									</a>
+								</li>
+								<li class="h-nav__item">
+									<a href="#" class="h-nav__link">
+										Продажа
+									</a>
+									<ul class="h-nav__sub">
+										<li class="h-nav__sub-item">
+											<a href="#" class="h-nav__sub-link">
+												Элементы мощения
+											</a>
+										</li>
+										<li class="h-nav__sub-item">
+											<a href="#" class="h-nav__sub-link">
+												Бортовые камни
+											</a>
+										</li>
+										<li class="h-nav__sub-item">
+											<a href="#" class="h-nav__sub-link">
+												Ливневая канализация
+											</a>
+										</li>
+										<li class="h-nav__sub-item">
+											<a href="#" class="h-nav__sub-link">
+												Дренажная система
+											</a>
+										</li>
+										<li class="h-nav__sub-item">
+											<a href="#" class="h-nav__sub-link">
+												Водоотводы, сопутствующие товары
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li class="h-nav__item">
+									<a href="#" class="h-nav__link">
+										Укладка
+									</a>
+								</li>
+								<li class="h-nav__item">
+									<a href="#" class="h-nav__link">
+										Дизайн-проект
+									</a>
+								</li>
+								<li class="h-nav__item">
+									<a href="#" class="h-nav__link">
+										Прайс-лист
+									</a>
+								</li>
+								<li class="h-nav__item">
+									<a href="#" class="h-nav__link">
+										Фото работ
+									</a>
+								</li>
+								<li class="h-nav__item">
+									<a href="#" class="h-nav__link">
+										Контакты
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<script>
+		$(document).ready(function() {
+			$('.catalog-slider').slick({
+				fade: true,
+				autoplay: false,
+				autoplaySpeed: 5000,
+				arrows: false,
+				dots: true
+			});
+		});
+	</script>
+	<div class="catalog-slider index-slider">
+		<div class="index-slider__item">
+			<img src="img/slider/1.jpg" alt="" class="index-slider__img">
+		</div>
+		<div class="index-slider__item">
+			<img src="img/slider/1.jpg" alt="" class="index-slider__img">
+		</div>
+	</div>
+	<div class="page">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="page__path">
+						<ul class="path">
+							<li class="path__item">
+								<a href="#" class="path__link">
+									Главная
+								</a>
+							</li>
+							<li class="path__item">
+								<a href="#" class="path__link">
+									Тротуарная плитка
+								</a>
+							</li>
+							<li class="path__item">
+								<span class="path__last">
+									брусчатка
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="page__p-title">
+						<div class="p-title">
+							<h2 class="p-title__title">
+								ТРОТУАРНАЯ ПЛИТКА И БРУСЧАТКа
+							</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row p-prod__wp">
+				<div class="col-md-4 col-sm-6">
+					<div class="bestseller__hit-prod">
+						<div class="p-prod hit-prod">
+							<div class="hit-prod__title-wp">
+								<h2 class="hit-prod__title">
+									Старый город
+								</h2>
+							</div>
+							<div class="hit-prod__img-wp">
+								<img src="img/prod/4.jpg" alt="" class="hit-prod__img">
+							</div>
+							<div class="hit-prod__row">
+								<ul class="hit-prod__color">
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #84888d;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #5e8226;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #ac1d1d;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #b7aa13;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #5e8226;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #ac1d1d;"></a>
+									</li>
+								</ul>
+								<div class="hit-prod__color-name">
+									<span>коричневый</span>
+								</div>
+							</div>
+							<div class="hit-prod__bottom">
+								<div class="hit-prod__bottom-left">
+									<b>910</b> руб/м<sup>2</sup>
+								</div>
+								<div class="hit-prod__bottom-right">
+									<a href="#" class="hit-prod__bottom-right-bt">
+										Заказать
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="bestseller__hit-prod">
+						<div class="p-prod hit-prod">
+							<div class="hit-prod__title-wp">
+								<h2 class="hit-prod__title">
+									Старый город
+								</h2>
+							</div>
+							<div class="hit-prod__img-wp">
+								<img src="img/prod/4.jpg" alt="" class="hit-prod__img">
+							</div>
+							<div class="hit-prod__row">
+								<ul class="hit-prod__color">
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #84888d;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #5e8226;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #ac1d1d;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #b7aa13;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #5e8226;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #ac1d1d;"></a>
+									</li>
+								</ul>
+								<div class="hit-prod__color-name">
+									<span>коричневый</span>
+								</div>
+							</div>
+							<div class="hit-prod__bottom">
+								<div class="hit-prod__bottom-left">
+									<b>910</b> руб/м<sup>2</sup>
+								</div>
+								<div class="hit-prod__bottom-right">
+									<a href="#" class="hit-prod__bottom-right-bt">
+										Заказать
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="bestseller__hit-prod">
+						<div class="p-prod hit-prod">
+							<div class="hit-prod__title-wp">
+								<h2 class="hit-prod__title">
+									Старый город
+								</h2>
+							</div>
+							<div class="hit-prod__img-wp">
+								<img src="img/prod/4.jpg" alt="" class="hit-prod__img">
+							</div>
+							<div class="hit-prod__row">
+								<ul class="hit-prod__color">
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #84888d;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #5e8226;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #ac1d1d;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #b7aa13;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #5e8226;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #ac1d1d;"></a>
+									</li>
+								</ul>
+								<div class="hit-prod__color-name">
+									<span>коричневый</span>
+								</div>
+							</div>
+							<div class="hit-prod__bottom">
+								<div class="hit-prod__bottom-left">
+									<b>910</b> руб/м<sup>2</sup>
+								</div>
+								<div class="hit-prod__bottom-right">
+									<a href="#" class="hit-prod__bottom-right-bt">
+										Заказать
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="bestseller__hit-prod">
+						<div class="p-prod hit-prod">
+							<div class="hit-prod__title-wp">
+								<h2 class="hit-prod__title">
+									Старый город
+								</h2>
+							</div>
+							<div class="hit-prod__img-wp">
+								<img src="img/prod/4.jpg" alt="" class="hit-prod__img">
+							</div>
+							<div class="hit-prod__row">
+								<ul class="hit-prod__color">
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #84888d;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #5e8226;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #ac1d1d;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #b7aa13;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #5e8226;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #ac1d1d;"></a>
+									</li>
+								</ul>
+								<div class="hit-prod__color-name">
+									<span>коричневый</span>
+								</div>
+							</div>
+							<div class="hit-prod__bottom">
+								<div class="hit-prod__bottom-left">
+									<b>910</b> руб/м<sup>2</sup>
+								</div>
+								<div class="hit-prod__bottom-right">
+									<a href="#" class="hit-prod__bottom-right-bt">
+										Заказать
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="bestseller__hit-prod">
+						<div class="p-prod hit-prod">
+							<div class="hit-prod__title-wp">
+								<h2 class="hit-prod__title">
+									Старый город
+								</h2>
+							</div>
+							<div class="hit-prod__img-wp">
+								<img src="img/prod/4.jpg" alt="" class="hit-prod__img">
+							</div>
+							<div class="hit-prod__row">
+								<ul class="hit-prod__color">
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #84888d;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #5e8226;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #ac1d1d;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #b7aa13;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #5e8226;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #ac1d1d;"></a>
+									</li>
+								</ul>
+								<div class="hit-prod__color-name">
+									<span>коричневый</span>
+								</div>
+							</div>
+							<div class="hit-prod__bottom">
+								<div class="hit-prod__bottom-left">
+									<b>910</b> руб/м<sup>2</sup>
+								</div>
+								<div class="hit-prod__bottom-right">
+									<a href="#" class="hit-prod__bottom-right-bt">
+										Заказать
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="bestseller__hit-prod">
+						<div class="p-prod hit-prod">
+							<div class="hit-prod__title-wp">
+								<h2 class="hit-prod__title">
+									Старый город
+								</h2>
+							</div>
+							<div class="hit-prod__img-wp">
+								<img src="img/prod/4.jpg" alt="" class="hit-prod__img">
+							</div>
+							<div class="hit-prod__row">
+								<ul class="hit-prod__color">
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #84888d;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #5e8226;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #ac1d1d;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #b7aa13;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #5e8226;"></a>
+									</li>
+									<li class="hit-prod__color-item">
+										<a href="#" class="hit-prod__color-link" style="background-color: #ac1d1d;"></a>
+									</li>
+								</ul>
+								<div class="hit-prod__color-name">
+									<span>коричневый</span>
+								</div>
+							</div>
+							<div class="hit-prod__bottom">
+								<div class="hit-prod__bottom-left">
+									<b>910</b> руб/м<sup>2</sup>
+								</div>
+								<div class="hit-prod__bottom-right">
+									<a href="#" class="hit-prod__bottom-right-bt">
+										Заказать
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="page__pagination">
+						<ul class="pagination">
+							<li class="pagination__item pagination__item-active">
+								<a href="#" class="pagination__link">
+									1
+								</a>
+							</li>
+							<li class="pagination__item">
+								<a href="#" class="pagination__link">
+									2
+								</a>
+							</li>
+							<li class="pagination__item">
+								<a href="#" class="pagination__link">
+									3
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="footer__copy">
+						<div class="copy">
+							<p>
+								2013 - 2017 “Деко Стоун” - продажа и укладка брусчатки.<br>Все права защищены.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1 col-sm-6">
+					<div class="footer__other">
+						<div class="other">
+							<img src="img/other.jpg" alt="" class="other-img">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-md-offset-3 col-sm-6">
+					<div class="footer__rips">
+						<div class="rips">
+							<div class="rips__wp">
+								<a href="#">
+									Разработка и<br>продвижение сайта
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="button-up__wp">
+		<button class="button-up"></button>
+	</div>
+</body>
+</html>

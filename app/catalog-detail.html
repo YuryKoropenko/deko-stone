@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+
+	<title>Заголовок</title>
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Styles -->
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="libs/slick/slick.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+	<!-- End_Styles -->
+	<!-- Scripts -->
+	<script type="text/javascript" src="libs/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="libs/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<!-- End_Scripts -->
+</head>
+<body>
+	<header class="header">
+		<div class="header__top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-12">
+						<div class="header__h-logo">
+							<div class="h-logo">
+								<a href="/" class="h-logo__link">
+									<img src="img/h-logo.png" alt="" class="logo__img">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 hide">
+						<div class="header__h-info">
+							<div class="h-info">
+								<p>
+									Продажа и укладка брусчатки, тротуарной плитки
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="header__h-phone">
+							<div class="h-phone">
+								<div class="h-phone__number">
+									<a href="tel:+74956649440">
+										+7 /495/
+										<span>664-94-40</span>
+									</a>
+								</div>
+								<div class="h-phone__callback">
+									<a href="#">
+										Заказать обратный звонок
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="header__h-basket">
+							<div class="h-basket">
+								<i class="h-basket__icon"></i>
+								<a href="#">Корзина пуста</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header__bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="h-nav__mob-button-wp">
+							<a href="#" class="h-nav__mob-button">
+								Меню
+							</a>
+						</div>
+						<div class="header__h-nav">
+							<ul class="h-nav">
+								<li class="h-nav__item">
+									<a href="#" class="h-nav__link">
+										О компании
+									</a>
+								</li>
+								<li class="h-nav__item">
+									<a href="#" class="h-nav__link">
+										Продажа
+									</a>
+									<ul class="h-nav__sub">
+										<li class="h-nav__sub-item">
+											<a href="#" class="h-nav__sub-link">
+												Элементы мощения
+											</a>
+										</li>
+										<li class="h-nav__sub-item">
+											<a href="#" class="h-nav__sub-link">
+												Бортовые камни
+											</a>
+										</li>
+										<li class="h-nav__sub-item">
+											<a href="#" class="h-nav__sub-link">
+												Ливневая канализация
+											</a>
+										</li>
+										<li class="h-nav__sub-item">
+											<a href="#" class="h-nav__sub-link">
+												Дренажная система
+											</a>
+										</li>
+										<li class="h-nav__sub-item">
+											<a href="#" class="h-nav__sub-link">
+												Водоотводы, сопутствующие товары
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li class="h-nav__item">
+									<a href="#" class="h-nav__link">
+										Укладка
+									</a>
+								</li>
+								<li class="h-nav__item">
+									<a href="#" class="h-nav__link">
+										Дизайн-проект
+									</a>
+								</li>
+								<li class="h-nav__item">
+									<a href="#" class="h-nav__link">
+										Прайс-лист
+									</a>
+								</li>
+								<li class="h-nav__item">
+									<a href="#" class="h-nav__link">
+										Фото работ
+									</a>
+								</li>
+								<li class="h-nav__item">
+									<a href="#" class="h-nav__link">
+										Контакты
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<script>
+		$(document).ready(function() {
+			$('.catalog-slider').slick({
+				fade: true,
+				autoplay: false,
+				autoplaySpeed: 5000,
+				arrows: false,
+				dots: true
+			});
+		});
+	</script>
+	<div class="catalog-slider index-slider">
+		<div class="index-slider__item">
+			<img src="img/slider/1.jpg" alt="" class="index-slider__img">
+		</div>
+		<div class="index-slider__item">
+			<img src="img/slider/1.jpg" alt="" class="index-slider__img">
+		</div>
+	</div>
+	<div class="page">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="page__sidebar">
+						<ul class="sidebar">
+							<li class="sidebar__item">
+								<a href="#" class="sidebar__link">
+									Элемент мощения
+								</a>
+								<ul class="sidebar-sub">
+									<li class="sidebar-sub__item">
+										<a href="#" class="sidebar-sub__link">
+											Класика
+										</a>
+									</li>
+									<li class="sidebar-sub__item">
+										<a href="#" class="sidebar-sub__link">
+											Класика
+										</a>
+									</li>
+									<li class="sidebar-sub__item">
+										<a href="#" class="sidebar-sub__link">
+											Класика
+										</a>
+									</li>
+									<li class="sidebar-sub__item">
+										<a href="#" class="sidebar-sub__link">
+											Класика
+										</a>
+									</li>
+									<li class="sidebar-sub__item">
+										<a href="#" class="sidebar-sub__link">
+											Класика
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="sidebar__item">
+								<a href="#" class="sidebar__link">
+									Элемент мощения
+								</a>
+								<ul class="sidebar-sub">
+									<li class="sidebar-sub__item">
+										<a href="#" class="sidebar-sub__link">
+											Класика
+										</a>
+									</li>
+									<li class="sidebar-sub__item">
+										<a href="#" class="sidebar-sub__link">
+											Класика
+										</a>
+									</li>
+									<li class="sidebar-sub__item">
+										<a href="#" class="sidebar-sub__link">
+											Класика
+										</a>
+									</li>
+									<li class="sidebar-sub__item">
+										<a href="#" class="sidebar-sub__link">
+											Класика
+										</a>
+									</li>
+									<li class="sidebar-sub__item">
+										<a href="#" class="sidebar-sub__link">
+											Класика
+										</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-9 ht">
+					<div class="page__card">
+						<ul class="path">
+							<li class="path__item">
+								<a href="#" class="path__link">
+									Главная
+								</a>
+							</li>
+							<li class="path__item">
+								<a href="#" class="path__link">
+									Тротуарная плитка
+								</a>
+							</li>
+							<li class="path__item">
+								<a href="#" class="path__link">
+									Брусчатка
+								</a>
+							</li>
+							<li class="path__item">
+								<span class="path__last">
+									Старый город
+								</span>
+							</li>
+						</ul>
+						<div class="card">
+							<div class="card__title-wp">
+								<h1 class="card__title">
+									Старый город
+								</h1>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card__img-wp">
+								<img src="img/prod/5.jpg" alt="" class="card__img">
+							</div>
+							<div class="card__cement">
+								<div class="card__cement-element">
+									<div class="card__cement-title-wp">
+										<b class="card__cement-title">
+											Серый цемент
+										</b>
+									</div>
+									<div class="card__cement-item">
+										<div class="card__cement-item-left">
+											550 р./м<sup>2</sup>
+										</div>
+										<div class="card__cement-item-right">
+											<div class="card__cement-item-right-color" style="background-color: #7d7370;"></div>
+											полный покарас
+										</div>
+									</div>
+									<div class="card__cement-item-no">
+										<div class="card__cement-item-left">
+											нет
+										</div>
+										<div class="card__cement-item-right">
+											<div class="card__cement-item-right-color" style="background-color: #7d7370;"></div>
+											частичный покарас
+										</div>
+									</div>
+								</div>
+								<div class="card__cement-element">
+									<div class="card__cement-title-wp">
+										<b class="card__cement-title">
+											Белый цемент
+										</b>
+									</div>
+									<div class="card__cement-item">
+										<div class="card__cement-item-left">
+											1150 р./м<sup>2</sup>
+										</div>
+										<div class="card__cement-item-right">
+											<div class="card__cement-item-right-color" style="background-color: #7d7370;"></div>
+											полный покарас
+										</div>
+									</div>
+									<div class="card__cement-item-no">
+										<div class="card__cement-item-left">
+											нет
+										</div>
+										<div class="card__cement-item-right">
+											<div class="card__cement-item-right-color" style="background-color: #7d7370;"></div>
+											частичный покарас
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-8">
+							<ul class="card__info">
+								<li class="card__info-item">
+									<div class="card__info-item-left">
+										Размер
+									</div>
+									<div class="card__info-item-right">
+										225x112,5x80
+									</div>
+								</li>
+								<li class="card__info-item">
+									<div class="card__info-item-left">
+										Размер
+									</div>
+									<div class="card__info-item-right">
+										225x112,5x80
+									</div>
+								</li>
+								<li class="card__info-item">
+									<div class="card__info-item-left">
+										Кол-во в 1 м<sup>2</sup>
+									</div>
+									<div class="card__info-item-right">
+										10,0 м<sup>2</sup>
+									</div>
+								</li>
+								<li class="card__info-item">
+									<div class="card__info-item-left">
+										Размер
+									</div>
+									<div class="card__info-item-right">
+										225x112,5x80
+									</div>
+								</li>
+							</ul>
+							<div class="card__c-color">
+								<div class="card__c-color-title-wp">
+									<b class="card__c-color-title">
+										Выберите цвет
+									</b>
+								</div>
+								<ul class="card__c-color-list">
+									<li class="card__c-color-item">
+										<span style="background-color: #7d7370;" class="active">
+											Серый
+										</span>
+									</li>
+									<li class="card__c-color-item">
+										<span style="background-color: red;">
+											Красный
+										</span>
+									</li>
+									<li class="card__c-color-item">
+										<span style="background-color: blue;">
+											Синий
+										</span>
+									</li>
+									<li class="card__c-color-item">
+										<span style="background-color: green;">
+											Зеленый
+										</span>
+									</li>
+								</ul>
+								<div class="card__c-color-name">
+									Серый
+								</div>
+							</div>
+							<div class="card__buy">
+								<div class="hit-prod__bottom-left">
+									<b>910</b> руб/м<sup>2</sup>
+								</div>
+								<div class="card__buy-button">
+									<a href="#" class="hit-prod__bottom-right-bt">
+										Заказать
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="card__portfolio">
+								<div class="card__portfolio-title-wp">
+									<b class="card__portfolio-title">
+										Работы по укладки тротуарной плитки
+									</b>
+								</div>
+								<div class="row">
+									<div class="col-md-3">
+										<div class="card__portfolio-img-wp">
+											<img src="img/prod/1.jpg" alt="" class="card__portfolio-img">
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="card__portfolio-img-wp">
+											<img src="img/prod/1.jpg" alt="" class="card__portfolio-img">
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="card__portfolio-img-wp">
+											<img src="img/prod/1.jpg" alt="" class="card__portfolio-img">
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="card__portfolio-img-wp">
+											<img src="img/prod/1.jpg" alt="" class="card__portfolio-img">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="footer__copy">
+						<div class="copy">
+							<p>
+								2013 - 2017 “Деко Стоун” - продажа и укладка брусчатки.<br>Все права защищены.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1 col-sm-6">
+					<div class="footer__other">
+						<div class="other">
+							<img src="img/other.jpg" alt="" class="other-img">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-md-offset-3 col-sm-6">
+					<div class="footer__rips">
+						<div class="rips">
+							<div class="rips__wp">
+								<a href="#">
+									Разработка и<br>продвижение сайта
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="button-up__wp">
+		<button class="button-up"></button>
+	</div>
+</body>
+</html>

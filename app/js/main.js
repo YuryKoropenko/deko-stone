@@ -31,4 +31,20 @@ $(document).ready(function() {
 			});
 		return false;
 	});
+
+/**/
+	$('.card__cement-item').on('click', function() {
+		$('.card__cement-item').removeClass('card__cement-item-active');
+		$(this).addClass('card__cement-item-active');
+	});
+
+/**/
+	$('.card__c-color-item span').on('click', function() {
+		var color = $(this).text();
+		$('.card__c-color-item span').removeClass('active');
+		$(this).addClass('active');
+		$('.card__c-color-name').text(color);
+	});
+	var ht = $('.ht').height();
+	$('.sidebar').height(ht);
 });

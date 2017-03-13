@@ -532,3 +532,301 @@ body
 		right: 20px
 		bottom: 20px
 		display: none
+
+.catalog-slider
+	&::before
+		display: none
+	&::after
+		display: none
+	.slick-dots
+		position: absolute
+		bottom: 17px
+		left: 0
+		right: 0
+		font-size: 0
+		text-align: center
+		li
+			display: inline-block
+			padding: 0 10px
+			button
+				text-indent: -9999px
+				width: 30px
+				height: 30px
+				display: block
+				padding: 0
+				margin: 0
+				border: none
+				background-color: #fff
+				border-radius: 50%
+				-webkit-border-radius: 50%
+		.slick-active
+			button
+				position: relative
+				&::after
+					content: ''
+					width: 24px
+					height: 24px
+					background-color: #0c0
+					border-radius: 50%
+					-webkit-border-radius: 50%
+					position: absolute
+					left: 3px
+					top: 3px
+
+.path
+	padding: 30px 0
+	&__item
+		display: inline-block
+		&::before
+			content: '/'
+			display: inline-block
+	.path__item
+		&:first-child
+			&::before
+				display: none
+	&__link
+		color: #393d43
+		font-size: 16px
+		line-height: 33px
+		text-decoration: underline
+		&:hover
+			text-decoration: none
+			color: #393d43
+		&:active, &:focus
+			text-decoration: underline
+			color: #393d43
+
+.p-title
+	text-align: center
+	padding: 30px 0 60px
+	border-bottom: 1px solid #e1e2e3
+	&__title
+		text-transform: uppercase
+		display: inline-block
+		color: #393d42
+		font-size: 28px
+		line-height: 33px
+
+.p-prod
+	margin-bottom: 50px
+	margin-top: 0
+	&__wp
+		padding-top: 58px
+
+.pagination
+	font-size: 0
+	text-align: center
+	margin-top: -10px
+	margin-bottom: 83px
+	&__item
+		display: inline-block
+		padding: 0 5px
+		&-active
+			.pagination__link
+				background-color: #01ca03
+				color: #fff
+				&:hover, &:focus, &:active
+					color: #fff
+					text-decoration: none
+	&__link
+		color: #393d43
+		font-size: 22px
+		line-height: 43px
+		display: block
+		padding: 0 12px
+		&:hover, &:focus, &:active
+			color: #393d42
+			text-decoration: none
+
+.page
+	&__card
+		padding-top: 16px
+		margin-bottom: 30px
+
+.sidebar
+	padding-top: 45px
+	background-color: #eaebeb
+	height: 100%
+	position: relative
+	&__item
+	&__link
+		color: #393d43
+		font-size: 18px
+		font-family: "PTSansBold", sans-serif
+		padding: 7px 20px
+		display: block
+		&:hover
+			text-decoration: none
+			color: #393d43
+		&:active, &:focus
+			text-decoration: none
+			color: #393d43
+	&-sub
+		&__item
+		&__link
+			color: #393d43
+			font-size: 18px
+			padding: 7px 48px
+			display: block
+			&:hover
+				background-color: #01ca03
+				text-decoration: none
+				color: #fff
+			&:active, &:focus
+				text-decoration: none
+				color: #fff
+
+.card
+	&__title
+		text-transform: uppercase
+		color: #393d42
+		font-size: 28px
+		line-height: 33px
+		display: inline-block
+		&-wp
+			padding-bottom: 20px
+			text-align: left
+			border-bottom: 1px solid #e7dbdb
+	&__img
+		max-width: 100%
+		height: auto
+		&-wp
+			width: 100%
+	&__cement
+		&-element
+		&-title
+			display: block
+			padding-bottom: 5px
+			&-wp
+		&-item
+			@extend .clearfix
+			cursor: pointer
+			height: 48px
+			border: 1px solid #dddddd
+			margin-bottom: 10px
+			&-active
+				border-color: #ec6800
+			&-no
+				opacity: 0.5
+				cursor: pointer
+				height: 48px
+				border: 1px solid #dddddd
+				margin-bottom: 10px
+			&:hover
+				border-color: #ec6800
+			&-left
+				width: 50%
+				float: left
+				color: #393d43
+				display: inline-block
+				font-size: 20px
+				height: 46px
+				line-height: 46px
+				text-align: center
+				sup
+					font-size: 13px
+			&-right
+				width: 50%
+				float: right
+				padding-left: 40px
+				position: relative
+				height: 46px
+				vertical-align: middle
+				&-color
+					width: 30px
+					height: 30px
+					border-radius: 50%
+					-webkit-border-radius: 50%
+					position: absolute
+					left: 0
+					top: 50%
+					margin-top: -15px
+	&__info
+		padding: 35px 10%
+		&-item
+			@extend .clearfix
+			padding: 7px 0
+			&-left
+				float: left
+				width: 50%
+				text-align: left
+			&-right
+				float: right
+				width: 50%
+				text-align: right
+				font-family: "PTSansBold", sans-serif
+	&__c-color
+		&-title
+			display: inline-block
+			font-family: "PTSansBold", sans-serif
+			font-size: 18px
+			&-wp
+				text-align: center
+				padding-bottom: 5px
+		&-list
+			text-align: center
+		&-item
+			width: 36px
+			height: 36px
+			display: block
+			border-radius: 50%
+			-webkit-border-radius: 50%
+			cursor: pointer
+			display: inline-block
+			position: relative
+			span
+				width: 28px
+				height: 28px
+				display: block
+				position: absolute
+				top: 50%
+				margin-top: -14px
+				left: 50%
+				margin-left: -14px
+				border-radius: 50%
+				-webkit-border-radius: 50%
+				text-indent: -9999px
+				&:hover
+					width: 36px
+					height: 36px
+					top: 50%
+					margin-top: -18px
+					margin-left: -18px
+			.active
+				width: 36px
+				height: 36px
+				top: 50%
+				margin-top: -18px
+				margin-left: -18px
+				border: 1px solid #ff5a0d
+		&-name
+			display: block
+			text-align: center
+	&__buy
+		text-align: center
+		padding-top: 58px
+		.hit-prod__bottom-left
+			display: inline-block
+			margin-right: 36px
+		.card__buy-button
+			display: inline-block
+	&__portfolio
+		padding-bottom: 180px
+		margin-top: 30px
+		border-top: 1px solid #e7dbdb
+		&-title
+			text-transform: uppercase
+			font-size: 28px
+			line-height: 33px
+			color: #393d42
+			&-wp
+				padding-top: 60px
+				padding-bottom: 40px
+		&-img
+			height: 100%
+			width: auto
+			&-wp
+				height: 164px
+				width: 100%
+				overflow: hidden
+				border: 5px solid #f3f3f3
