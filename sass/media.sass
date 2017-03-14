@@ -5,7 +5,7 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1199px)
 	.h-nav__link
-		padding: 26px 23px
+		padding: 26px 22px
 		font-size: 16px
 	.h-nav__sub
 		top: 72px
@@ -45,6 +45,33 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px)
+	.card__portfolio
+		padding-bottom: 20px
+	.card__portfolio-img-wp
+		height: 275px
+	.card__portfolio-title-wp
+		padding: 20px 0
+	.sidebar
+		display: none
+	.card__img-wp
+		text-align: center
+	.mob-sidebar__button-wp
+		display: block
+		margin-left: -15px
+		margin-right: -15px
+		padding: 26px
+		width: auto
+		background-color: #393d43
+	.mob-sidebar__button
+		color: #fff
+		display: block
+		font-family: "PTSansBold",sans-serif
+		font-size: 16px
+		text-align: center
+		text-transform: uppercase
+		&:hover, &:active, &:focus
+			color: #fff
+			text-decoration: none
 	.pagination
 		margin-bottom: 40px
 	.path
@@ -72,8 +99,8 @@
 	.header__top
 		padding: 16px 0
 	.h-nav__link
-		padding-left: 7.2px
-		padding-right: 7.2px
+		padding-left: 6.5px
+		padding-right: 6.5px
 	.ad-center__img-wp
 		width: 100%
 	.ad-top
@@ -102,6 +129,13 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px)
+	.card__portfolio-img-wp
+		width: 100%
+		height: auto
+		img
+			display: block
+			width: 100%
+			height: auto
 	.rproj-slider
 		.slick-prev
 			left: -5px
