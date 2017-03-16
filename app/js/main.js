@@ -1,10 +1,10 @@
 $(document).ready(function() {
 /**/
 	$('.h-nav__item').hover(function() {
-		$(this).addClass('h-nav__item-active');
+		$(this).addClass('h-nav__item-hover');
 		$(this).children('.h-nav__sub').stop(true, false).slideDown();
 	}, function() {
-		$(this).removeClass('h-nav__item-active');
+		$(this).removeClass('h-nav__item-hover');
 		$(this).children('.h-nav__sub').stop(true, false).slideUp();
 	});
 
@@ -61,4 +61,43 @@ $(document).ready(function() {
 		var ht = $('.ht').height();
 		$('.sidebar').height(ht);
 	}
+	if (document.body.clientWidth>991) {
+	$(window).scroll(function(){
+		var windowScroll = $(window).scrollTop();
+		var ht = $('.header__top').height();
+		if(windowScroll > ht) {
+				$(".header__bottom").addClass("topMenu");
+			} else {
+				$(".header__bottom").removeClass("topMenu");
+			}
+		});
+	}
+
+/**/
+	$('.h-phone__callback a').on('click', function() {
+		$('.call-popup-bg').fadeIn();
+		$('.call-popup-wp').fadeIn();
+		return false;
+	});
+	$('.call-popup-bg').on('click', function() {
+		$('.call-popup-wp').fadeOut();
+		$('.zakaz-popup-wp').fadeOut();
+		$('.call-popup-bg').fadeOut();
+	});
+	$('.call-popup__close').on('click', function() {
+		$('.call-popup-wp').fadeOut();
+		$('.zakaz-popup-wp').fadeOut();
+		$('.call-popup-bg').fadeOut();
+	});
+
+/**/
+	$('.hit-prod__bottom-right-bt').on('click', function() {
+		$('.call-popup-bg').fadeIn();
+		$('.zakaz-popup-wp').fadeIn();
+		return false;
+	});
+
+/**/
+	$('.call-popup__input-phone').mask("(999) 999-9999");
+	$('.formCont__input').mask("(999) 999-9999");
 });

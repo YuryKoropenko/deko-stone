@@ -130,6 +130,11 @@ body
 				background-color: #01ca02
 				text-decoration: none
 				color: #fff
+		&-hover
+			.h-nav__link
+				background-color: #01ca02
+				text-decoration: none
+				color: #fff
 	&__link
 		font-size: 18px
 		text-transform: uppercase
@@ -830,3 +835,247 @@ body
 				width: 100%
 				overflow: hidden
 				border: 5px solid #f3f3f3
+
+.topMenu
+	position: fixed
+	top: 0
+	left: 0
+	right: 0
+	z-index: 998
+
+.call-popup
+	position: relative
+	&-bg
+		position: fixed
+		left: 0
+		right: 0
+		top: 0
+		bottom: 0
+		background-color: rgba(#000,.6)
+		display: none
+	&-wp
+		position: fixed
+		left: 0
+		right: 0
+		top: 50%
+		transform: translateY(-50%)
+		-webkit-transform: translateY(-50%)
+		width: 320px
+		margin: 0 auto
+		background-color: #fff
+		padding: 16px 30px 25px
+		border-radius: 3px
+		display: none
+	&__title
+		font-family: "PTSansBold", sans-serif
+		font-size: 24px
+		display: inline-block
+		&-wp
+			text-align: center
+			padding-bottom: 16px
+	&__row
+		padding-bottom: 10px
+	&__label
+		display: block
+		text-align: left
+	&__input
+		height: 30px
+		border: 1px solid #dddddd
+		border-radius: 3px
+		display: block
+		width: 100%
+		padding: 0 10px
+	&__textarea
+		height: 100px
+		border: 1px solid #dddddd
+		border-radius: 3px
+		display: block
+		width: 100%
+		resize: none
+		padding: 5px 10px
+	&__button
+		display: block
+		width: 100%
+		height: 40px
+		border-radius: 3px
+		background-color: #323335
+		border: none
+		text-align: center
+		font-family: "PTSansBold", sans-serif
+		color: #fff
+		font-size: 18px
+		&-wp
+	&__close
+		position: absolute
+		display: block
+		width: 30px
+		height: 30px
+		border: 2px solid #fff
+		border-radius: 50%
+		-webkit-border-radius: 50%
+		right: -48px
+		top: -31px
+		background-color: #222224
+		-webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.55)
+		-moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.55)
+		box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.55)
+		span
+			font-size: 28px
+			color: #fff
+			margin-top: -5.5px
+			display: block
+
+.cat-list
+	height: 340px
+
+.zakaz-popup-wp
+	position: fixed
+	left: 0
+	right: 0
+	top: 50%
+	transform: translateY(-50%)
+	-webkit-transform: translateY(-50%)
+	width: 320px
+	margin: 0 auto
+	background-color: #fff
+	padding: 16px 30px 25px
+	border-radius: 3px
+	display: none
+
+.ourwork
+	height: 246px
+	border: none
+	.rproj-slider__img
+	.rproj-slider__img-wp
+		width: 100%
+	.rproj-slider__name
+		text-align: center
+
+.p-basket
+	width: 100%
+	text-align: center
+	border: none
+	margin-top: 15px
+	&__top
+		border: none
+		font-size: 20px
+		&-item
+			background-color: #e3e6ee
+			border: 2px solid #fff
+			padding: 10px
+			&-1
+			&-2
+			&-3
+			&-4
+	&__item
+		&-item
+			padding: 10px
+			border: 2px solid #fff
+			&-1
+				position: relative
+				text-align: left
+		&-color
+			width: 40px
+			height: 40px
+			float: left
+			margin-right: 10px
+			&-n
+				display: block
+				font-size: 14px
+				color: #909289
+		&-name
+			font-size: 20px
+			line-height: 100%
+		&-minus
+			font-size: 20px
+			padding: 0
+			margin: 0
+			border: none
+			background-color: transparent
+		&-input
+			text-align: center
+			margin: 0 9px
+			width: 40px
+			height: 40px
+		&-plus
+			font-size: 20px
+			padding: 0
+			margin: 0
+			border: none
+			background-color: transparent
+		&-price
+			font-family: "PTSansBold", sans-serif
+			font-size: 18px
+		&-close
+			display: inline-block
+			width: 30px
+			height: 30px
+			border: 2px solid #fff
+			border-radius: 50%
+			-webkit-border-radius: 50%
+			background-color: #222224
+			-webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.55)
+			-moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.55)
+			box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.55)
+			span
+				font-size: 28px
+				color: #fff
+				margin-top: -5.5px
+				display: block
+	&__bottom
+		&-itog
+			text-align: right
+			border: 2px solid #fff
+			padding: 10px
+			font-size: 24px
+			font-family: "PTSansBold", sans-serif
+			background-color: #e3e6ee
+		&-sum
+			text-align: center
+			border: 2px solid #fff
+			font-size: 24px
+			padding: 10px
+			font-family: "PTSansBold", sans-serif
+			background-color: #e3e6ee
+
+.formCont
+	width: 320px
+	margin: 0 auto
+	padding-bottom: 30px
+	&__title
+		font-size: 22px
+		&-wp
+			text-align: center
+			padding: 40px 0
+	&__row
+		padding-bottom: 10px
+	&__label
+		display: block
+		text-align: left
+	&__input
+		height: 30px
+		border: 1px solid #dddddd
+		border-radius: 3px
+		display: block
+		width: 100%
+		padding: 0 10px
+	&__textarea
+		height: 100px
+		border: 1px solid #dddddd
+		border-radius: 3px
+		display: block
+		width: 100%
+		resize: none
+		padding: 5px 10px
+	&__button
+		display: block
+		width: 100%
+		height: 40px
+		border-radius: 3px
+		background-color: #323335
+		border: none
+		text-align: center
+		font-family: "PTSansBold", sans-serif
+		color: #fff
+		font-size: 18px
+		&-wp
