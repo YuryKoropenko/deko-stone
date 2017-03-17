@@ -451,9 +451,7 @@ body {
   position: absolute;
   display: block;
   z-index: 995;
-  top: 50%;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
+  top: 52px;
   width: 31px;
   height: 62px;
   background-image: url(../img/icon/3.png);
