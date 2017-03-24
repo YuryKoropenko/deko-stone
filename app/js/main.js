@@ -9,6 +9,12 @@ $(document).ready(function() {
 	});
 
 /**/
+	$('.rproj-slider__img').on('click', function() {
+		$('.call-popup-bg').fadeIn();
+		$('.bestseller__popup').addClass('bestseller__show');
+	});
+
+/**/
 	$(function() {
 		$(window).scroll(function() {
 			if($(this).scrollTop() != 0)
@@ -83,6 +89,7 @@ $(document).ready(function() {
 		$('.call-popup-wp').fadeOut();
 		$('.zakaz-popup-wp').fadeOut();
 		$('.call-popup-bg').fadeOut();
+		$('.bestseller__popup').removeClass('bestseller__show');
 	});
 	$('.call-popup__close').on('click', function() {
 		$('.call-popup-wp').fadeOut();

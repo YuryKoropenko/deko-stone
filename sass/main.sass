@@ -1077,3 +1077,48 @@ body
 		color: #fff
 		font-size: 18px
 		&-wp
+
+.bestseller
+	&__show
+		visibility: visible !important
+	&__popup
+		position: fixed
+		top: 50%
+		transform: translateY(-50%)
+		-webkit-transform: translateY(-50%)
+		left: 0
+		right: 0
+		width: 500px
+		margin: 0 auto
+		padding: 0
+		visibility: hidden
+	&__slider
+		position: relative
+		.slick-arrow
+			text-indent: -9999px
+			padding: 0
+			margin: 0
+			height: 62px
+			width: 31px
+			display: block
+			position: absolute
+			background-image: url(../img/icon/3.png)
+			background-repeat: no-repeat
+			border: none
+			background-color: transparent
+			top: 50%
+			margin-top: -31px
+			z-index: 999
+		.slick-prev
+			background-position: left center
+			left: -62px
+		.slick-next
+			background-position: right center
+			right: -62px
+		&-item
+			width: 100%
+			text-align: center
+			img
+				display: inline-block
+				max-width: 100%
+				height: auto
